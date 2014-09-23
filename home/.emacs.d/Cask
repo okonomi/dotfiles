@@ -26,5 +26,7 @@
 (depends-on "web-mode")
 (depends-on "yasnippet")
 
+(depends-on "molokai-theme" :git "https://github.com/hbin/molokai-theme")
+
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
