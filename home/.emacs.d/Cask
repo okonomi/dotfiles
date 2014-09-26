@@ -28,5 +28,7 @@
 
 (depends-on "molokai-theme" :git "https://github.com/hbin/molokai-theme")
 
+(depends-on "init-loader")
+
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
