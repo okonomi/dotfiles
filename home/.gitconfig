@@ -1,0 +1,36 @@
+[color]
+	branch = auto
+	interactive = auto
+	status = auto
+	ui = auto
+[user]
+	name = okonomi
+	email = oknm@okonomi.sakura.ne.jp
+[core]
+	fileMode = false
+	pager = lv -c
+	excludesfile = ~/.gitignore_global
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	di = diff
+	ad = add
+	tree = log --graph --pretty=oneline --abbrev-commit --decorate --all
+	br = branch
+	export = checkout-index -a -f
+[gc]
+	auto = 0
+[mergetool]
+	keepBackup = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.0/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[ghq]
+	root = ~/.ghq
