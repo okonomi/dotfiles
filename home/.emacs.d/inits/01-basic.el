@@ -7,8 +7,11 @@
 ;; 動的略語展開で大文字小文字を区別
 (setq dabbrev-case-fold-search nil)
 
-;; スクロールを一行ずつにする
-(setq scroll-step 1)
+;; 1行ずつスクロール
+(setq scroll-conservatively 35
+      scroll-margin 0
+      scroll-step 1)
+(setq comint-scroll-show-maximum-output t) ;; shell-mode
 
 ;; バッファ末尾に余計な改行コードが入るのを防ぐ
 (setq next-line-add-newlines nil)
