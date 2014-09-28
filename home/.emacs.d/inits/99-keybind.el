@@ -9,3 +9,6 @@
 
 ;; コメント解除
 (define-key global-map "\C-c:" 'uncomment-region)
+
+
+(global-set-key (kbd "M-x") 'helm-M-x)
