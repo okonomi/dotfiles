@@ -30,6 +30,7 @@
 
 (depends-on "init-loader")
 (depends-on "auto-save-buffers-enhanced")
+(depends-on "helm")
 
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
