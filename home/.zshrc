@@ -78,3 +78,7 @@ export LANG=ja_JP.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export GOPATH=$HOME
+
+export PATH=$HOME/bin:$PATH
