@@ -72,3 +72,6 @@
 
 ;; 現在の関数名をモードラインに表示する
 (which-function-mode true)
+
+;; recentf に保存する履歴の長さを無限にする
+(setq recentf-max-saved-items nil)
