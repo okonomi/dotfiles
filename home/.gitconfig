@@ -8,7 +8,6 @@
 	email = oknm@okonomi.sakura.ne.jp
 [core]
 	fileMode = false
-	pager = lv -c
 	excludesfile = ~/.gitignore_global
 [alias]
 	co = checkout
@@ -18,6 +17,7 @@
 	ad = add
 	tree = log --graph --pretty=oneline --abbrev-commit --decorate --all
 	br = branch
+	pick = cherry-pick
 	export = checkout-index -a -f
 [gc]
 	auto = 0
@@ -32,5 +32,8 @@
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+[svn]
+	pushmergeinfo = true
+	rmdir = true
 [ghq]
-	root = ~/.ghq
+	root = ~/src
