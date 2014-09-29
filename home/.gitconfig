@@ -1,11 +1,10 @@
+[include]
+	path = .gitconfig.user
 [color]
 	branch = auto
 	interactive = auto
 	status = auto
 	ui = auto
-[user]
-	name = okonomi
-	email = oknm@okonomi.sakura.ne.jp
 [core]
 	fileMode = false
 	excludesfile = ~/.gitignore_global
