@@ -1,5 +1,6 @@
 (source gnu)
 (source melpa)
+(source org)
 
 (depends-on "bind-key")
 (depends-on "cask")
@@ -32,6 +33,8 @@
 (depends-on "auto-save-buffers-enhanced")
 (depends-on "helm")
 (depends-on "git-gutter")
+
+(depends-on "org-plus-contrib")
 
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
