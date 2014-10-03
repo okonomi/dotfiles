@@ -35,6 +35,7 @@
 (depends-on "git-gutter")
 
 (depends-on "org-plus-contrib")
+(depends-on "editorconfig")
 
 (depends-on "php-mode")
 (depends-on "js2-mode")
