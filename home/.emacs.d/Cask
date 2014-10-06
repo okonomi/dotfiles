@@ -33,6 +33,7 @@
 (depends-on "auto-save-buffers-enhanced")
 (depends-on "helm")
 (depends-on "git-gutter-fringe")
+(depends-on "hlinum")
 
 (depends-on "org-plus-contrib")
 (depends-on "editorconfig")
