@@ -4,7 +4,7 @@
  ;; 英語
  (set-face-attribute 'default nil
              :family "Menlo" ;; font
-             :height 100)    ;; font size
+             :height 120)    ;; font size
 
 ;; 日本語
 (set-fontset-font
@@ -17,4 +17,4 @@
 ;;        '((".*Hiragino_Mincho_pro.*" . 1.2)))
       '((".*Hiragino_Kaku_Gothic_ProN.*" . 1.2)));; Mac用フォント設定
 
-(setq-default line-spacing 5)
+(setq-default line-spacing 2)
