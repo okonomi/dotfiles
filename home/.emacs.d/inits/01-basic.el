@@ -71,7 +71,13 @@
                                 (font-lock-mode t))) t)
 
 ;; 現在の関数名をモードラインに表示する
-(which-function-mode true)
+(which-function-mode t)
 
 ;; recentf に保存する履歴の長さを無限にする
 (setq recentf-max-saved-items nil)
+
+;; 行番号表示
+(global-linum-mode t)
+
+;; 列番号表示
+(column-number-mode t)
