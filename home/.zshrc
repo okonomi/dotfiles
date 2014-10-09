@@ -86,3 +86,5 @@ export PATH=$HOME/bin:$PATH
 # 履歴のインクリメンタル検索でワイルドカード利用可能
 bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^S' history-incremental-pattern-search-forward
+
+eval "$(plenv init -)"
