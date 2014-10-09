@@ -35,6 +35,7 @@
 (depends-on "git-gutter-fringe")
 (depends-on "hlinum")
 (depends-on "maxframe")
+(depends-on "tabbar")
 
 (depends-on "org-plus-contrib")
 (depends-on "editorconfig")
