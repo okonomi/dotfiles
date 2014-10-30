@@ -6,3 +6,6 @@
 
 ;; スクロールバー非表示
 (set-scroll-bar-mode nil)
+
+;; 最大化
+(toggle-frame-maximized)
