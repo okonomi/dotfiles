@@ -36,6 +36,7 @@
 (depends-on "hlinum")
 (depends-on "maxframe")
 (depends-on "tabbar")
+(depends-on "open-junk-file")
 
 (depends-on "org-plus-contrib")
 (depends-on "editorconfig")
