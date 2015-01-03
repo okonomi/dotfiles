@@ -83,8 +83,12 @@ export GOPATH=$HOME
 
 export PATH=$HOME/bin:$PATH
 
+export PATH=/usr/local/sbin:$PATH
+
 # 履歴のインクリメンタル検索でワイルドカード利用可能
 bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^S' history-incremental-pattern-search-forward
 
 eval "$(plenv init -)"
+
+export HAXE_STD_PATH='/usr/lib/haxe/std'
