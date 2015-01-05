@@ -88,3 +88,6 @@ bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^S' history-incremental-pattern-search-forward
 
 eval "$(plenv init -)"
+
+# OPAM configuration
+. /Users/kawakami/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
