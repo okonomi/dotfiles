@@ -1,6 +1,5 @@
 ;; Mac用フォント設定
-;; http://d.hatena.ne.jp/kitokitoki/20110502/p2
+;; http://blog.kawauso.com/?p=617
 
-(set-frame-font "ricty-14")
-
-(setq-default line-spacing 2)
+; (add-to-list 'default-frame-alist '(font . "MigMix 1M"))
+(set-face-attribute 'default nil :family "MigMix 1M" :height 180)
