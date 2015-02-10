@@ -81,3 +81,11 @@
 
 ;; 列番号表示
 (column-number-mode t)
+
+;; 最近開いたファイル
+(recentf-mode 1)
+(setq recentf-max-menu-items 20)
+(setq recentf-max-saved-items 100)
+
+;; ミニバッファ履歴リストの最大長
+(setq history-length 200)
