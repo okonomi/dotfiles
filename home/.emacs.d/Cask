@@ -51,3 +51,4 @@
 (depends-on "markdown-mode")
 (depends-on "haxe-mode")
 (depends-on "actionscript-mode")
+(depends-on "textile-mode")
