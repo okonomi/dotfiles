@@ -53,3 +53,4 @@
 (depends-on "actionscript-mode")
 (depends-on "textile-mode")
 (depends-on "go-mode")
+(depends-on "geeknote")
