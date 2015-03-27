@@ -40,6 +40,7 @@
 (depends-on "open-junk-file")
 (depends-on "session")
 (depends-on "minibuf-isearch")
+(depends-on "multiple-cursors")
 
 (depends-on "org-plus-contrib")
 (depends-on "editorconfig")
