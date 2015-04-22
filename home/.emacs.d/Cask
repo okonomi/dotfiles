@@ -55,3 +55,4 @@
 (depends-on "textile-mode")
 (depends-on "go-mode")
 (depends-on "geeknote")
+(depends-on "yaml-mode")
