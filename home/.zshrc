@@ -84,6 +84,7 @@ export GOPATH=$HOME
 export PATH=$HOME/bin:$PATH
 
 export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
 
 # 履歴のインクリメンタル検索でワイルドカード利用可能
 bindkey '^R' history-incremental-pattern-search-backward
