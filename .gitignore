@@ -4,3 +4,4 @@ home/.emacs.d/.mc-lists.el
 home/.emacs.d/.session
 home/.emacs.d/tramp
 home/.emacs.d/eshell
+home/.emacs.d/url
