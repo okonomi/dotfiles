@@ -45,6 +45,7 @@
 
 (depends-on "org-plus-contrib")
 (depends-on "editorconfig")
+(depends-on "quickrun")
 
 (depends-on "php-mode")
 (depends-on "enh-ruby-mode")
