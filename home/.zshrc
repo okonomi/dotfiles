@@ -96,5 +96,3 @@ eval "$(plenv init -)"
 . /Users/kawakami/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 export HAXE_STD_PATH='/usr/lib/haxe/std'
-
-export ATOM_PATH=/opt/homebrew-cask/Caskroom/atom/latest
