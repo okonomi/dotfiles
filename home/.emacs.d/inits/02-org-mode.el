@@ -21,3 +21,14 @@
     (org-clock-out)))
 (add-hook 'org-after-todo-state-change-hook
 	  'sacha/org-clock-out-if-waiting)
+
+
+;; キーバインドの設定
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+
+;; org-default-notes-fileのディレクトリ
+(setq org-directory "~/org/")
+
+;; アジェンダ表示の対象ファイル
+(setq org-agenda-files (list org-directory))
