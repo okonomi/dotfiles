@@ -58,5 +58,4 @@
 (depends-on "go-mode")
 (depends-on "geeknote")
 (depends-on "yaml-mode")
-(depends-on "scala-mode2")
 (depends-on "elixir-mode")
