@@ -6,5 +6,4 @@
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
 
-(load-theme 'molokai t t)
-(enable-theme 'molokai)
+(load-theme 'dracula t)
