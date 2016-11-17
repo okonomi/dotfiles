@@ -32,3 +32,6 @@
 
 ;; アジェンダ表示の対象ファイル
 (setq org-agenda-files (list org-directory))
+
+;; スピードコマンド有効化
+(setq org-use-speed-commands t)
