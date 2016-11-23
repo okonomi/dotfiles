@@ -36,14 +36,6 @@
 
 ;; 現在行をハイライト
 (global-hl-line-mode t)
-(defface my-hl-line-face
-  '((((class color) (background dark))  ; カラーかつ, 背景が dark ならば,
-     (:background "#040404" t))   ; 背景を黒に.
-    (((class color) (background light)) ; カラーかつ, 背景が light ならば,
-     (:background "ForestGreen" t))     ; 背景を ForestGreen に.
-    (t (:bold t)))
-  "hl-line's my face")
-(setq hl-line-face 'my-hl-line-face)
 
 ;; 選択範囲の反転
 (setq-default transient-mark-mode t)
