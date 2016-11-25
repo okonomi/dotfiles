@@ -40,8 +40,8 @@
 ;; 選択範囲の反転
 (setq-default transient-mark-mode t)
 
-;; 制御文字を表示
-(global-whitespace-mode t)
+;; ;; 制御文字を表示
+;; (global-whitespace-mode t)
 
 ;; 現在の関数名をモードラインに表示する
 (which-function-mode t)
