@@ -1,0 +1,9 @@
+.cask
+.mc-lists.el
+.org-id-locations
+.persistent-scratch
+.session
+elpa
+eshell
+tramp
+url
