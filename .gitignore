@@ -6,3 +6,4 @@ home/.emacs.d/tramp
 home/.emacs.d/eshell
 home/.emacs.d/url
 home/.emacs.d/.org-id-locations
+home/.emacs.d/.persistent-scratch
