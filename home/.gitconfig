@@ -18,7 +18,7 @@
 	br = branch
 	pick = cherry-pick
 	export = checkout-index -a -f
-	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+	delete-merged-branches = !git branch --merged | grep -vE '\\*|master$|develop$' | xargs -I % git branch -d %
 [mergetool]
 	keepBackup = true
 [difftool "sourcetree"]
