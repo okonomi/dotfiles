@@ -93,8 +93,6 @@ bindkey '^S' history-incremental-pattern-search-forward
 # OPAM configuration
 . /Users/kawakami/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
-export HAXE_STD_PATH='/usr/lib/haxe/std'
-
 eval "$(direnv hook zsh)"
 
 export PATH="$HOME/.anyenv/bin:$PATH"
