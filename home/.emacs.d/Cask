@@ -60,3 +60,4 @@
 (depends-on "geeknote")
 (depends-on "yaml-mode")
 (depends-on "elixir-mode")
+(depends-on "twittering-mode")
