@@ -35,3 +35,7 @@
 
 ;; スピードコマンド有効化
 (setq org-use-speed-commands t)
+
+;; クロックテーブルの集計を時間単位にする
+;; via: http://qiita.com/anno_kgrzk/items/3aa78433da34792cb7dc
+(setq org-time-clocksum-format '(:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
