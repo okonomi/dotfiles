@@ -61,3 +61,5 @@
 (depends-on "yaml-mode")
 (depends-on "elixir-mode")
 (depends-on "twittering-mode")
+(depends-on "fish-mode")
+(depends-on "rjsx-mode")
