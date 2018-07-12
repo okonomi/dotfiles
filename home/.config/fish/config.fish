@@ -6,3 +6,4 @@ function fish_user_key_bindings
 end
 
 alias g='git'
+alias s='cd (ghq list --full-path | peco)'
