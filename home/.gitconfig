@@ -44,9 +44,6 @@
 	diffFilter = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight
 [diff]
 	compactionHeuristic = true
-[user]
-	name = okonomi
-	email = oknm@okonomi.sakura.ne.jp
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
