@@ -7,7 +7,6 @@
 	ui = auto
 [core]
 	fileMode = false
-	excludesfile = ~/.gitignore_global
 [alias]
 	co = checkout
 	ci = commit
