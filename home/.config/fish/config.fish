@@ -13,3 +13,5 @@ status --is-interactive; and source (anyenv init -|psub)
 
 export GOPATH=$HOME/src
 set PATH $GOPATH/bin $PATH
+
+set PATH $HOME/bin $PATH
