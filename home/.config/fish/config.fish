@@ -8,8 +8,10 @@ end
 alias g='git'
 alias s='cd (ghq list --full-path | peco)'
 
-set PATH $HOME/.anyenv/bin $PATH
-status --is-interactive; and source (anyenv init -|psub)
+if type -q $HOME/.anyenv/bin/anyenv
+  set PATH $HOME/.anyenv/bin $PATH
+  status --is-interactive; and source (anyenv init -|psub)
+end
 
 export GOPATH=$HOME/src
 set PATH $GOPATH/bin $PATH
