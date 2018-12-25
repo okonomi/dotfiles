@@ -17,3 +17,7 @@ export GOPATH=$HOME/src
 set PATH $GOPATH/bin $PATH
 
 set PATH $HOME/bin $PATH
+
+
+set -g theme_display_date no
+set -g theme_display_cmd_duration no
