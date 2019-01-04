@@ -90,8 +90,6 @@ export PATH=/usr/local/bin:$PATH
 bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^S' history-incremental-pattern-search-forward
 
-eval "$(direnv hook zsh)"
-
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
