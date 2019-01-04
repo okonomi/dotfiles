@@ -36,11 +36,11 @@
 [ghq]
 	root = ~/src
 [pager]
-	log = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
-	show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
-	diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
 [interactive]
-	diffFilter = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight
+	diffFilter = diff-highlight
 [diff]
 	compactionHeuristic = true
 [filter "lfs"]
