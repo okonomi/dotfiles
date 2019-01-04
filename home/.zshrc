@@ -90,9 +90,6 @@ export PATH=/usr/local/bin:$PATH
 bindkey '^R' history-incremental-pattern-search-backward
 bindkey '^S' history-incremental-pattern-search-forward
 
-# OPAM configuration
-. /Users/kawakami/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
 eval "$(direnv hook zsh)"
 
 export PATH="$HOME/.anyenv/bin:$PATH"
