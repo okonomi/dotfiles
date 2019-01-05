@@ -13,8 +13,7 @@ if type -q $HOME/.anyenv/bin/anyenv
   status --is-interactive; and source (anyenv init -|psub)
 end
 
-export GOPATH=$HOME/src
-set PATH $GOPATH/bin $PATH
+export GOPATH=$HOME
 
 set PATH $HOME/bin $PATH
 
