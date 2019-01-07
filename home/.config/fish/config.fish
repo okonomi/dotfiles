@@ -10,7 +10,7 @@ alias s='cd (ghq list --full-path | peco)'
 
 if type -q $HOME/.anyenv/bin/anyenv
   set -g fish_user_paths $HOME/.anyenv/bin $fish_user_paths
-  # status --is-interactive; and source (anyenv init -|psub)
+  eval (anyenv init - | source)
 end
 
 export GOPATH=$HOME
