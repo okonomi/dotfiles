@@ -13,6 +13,10 @@ if type -q $HOME/.anyenv/bin/anyenv
   anyenv init - fish | source
 end
 
+if type -q /home/linuxbrew/.linuxbrew
+  eval (/home/linuxbrew/.linuxbrew/bin shellenv)
+end
+
 export GOPATH=$HOME
 
 set PATH $HOME/bin $PATH
