@@ -9,8 +9,8 @@ alias g='git'
 alias s='cd (ghq list --full-path | peco)'
 
 if type -q $HOME/.anyenv/bin/anyenv
-  set -g fish_user_paths $HOME/.anyenv/bin $fish_user_paths
-  eval (anyenv init - | source)
+  set PATH $HOME/bin $HOME/.anyenv/bin $PATH
+  anyenv init - fish | source
 end
 
 export GOPATH=$HOME
