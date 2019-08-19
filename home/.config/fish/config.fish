@@ -10,7 +10,9 @@ alias s='cd (ghq list --full-path | peco)'
 
 if type -q $HOME/.anyenv/bin/anyenv
   set PATH $HOME/bin $HOME/.anyenv/bin $PATH
-  anyenv init - fish | source
+end
+if type -q anyenv
+  status --is-interactive; and source (anyenv init -|psub)
 end
 
 if type -q /home/linuxbrew/.linuxbrew
