@@ -8,6 +8,8 @@
 [core]
 	fileMode = false
 	excludesfile = /Users/okonomi/.gitignore_global
+	safecrlf = true
+	autocrlf = false
 [alias]
 	co = checkout
 	ci = commit
