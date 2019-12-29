@@ -25,5 +25,7 @@ set PATH $HOME/bin $PATH
 
 set PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
 
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+
 set -g theme_display_date no
 set -g theme_display_cmd_duration no
