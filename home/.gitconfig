@@ -7,7 +7,7 @@
 	ui = auto
 [core]
 	fileMode = false
-	excludesfile = /Users/okonomi/.gitignore_global
+	excludesfile = ~/.config/git/ignore
 	safecrlf = true
 	autocrlf = false
 [alias]
