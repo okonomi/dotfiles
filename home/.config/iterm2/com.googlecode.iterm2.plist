@@ -71,9 +71,9 @@
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
-	<integer>64</integer>
+	<integer>59</integer>
 	<key>HotkeyCode</key>
-	<integer>33</integer>
+	<integer>41</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>HotkeyModifiers</key>
@@ -910,7 +910,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1366, 768}}</string>
 		<key>topLeft</key>
-		<string>{361, 611}</string>
+		<string>{300, 685}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -921,7 +921,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>492929918.94300801</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>56</integer>
+	<integer>60</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>586690322.31085503</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1695,7 +1695,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-07T05:32:43Z</date>
+	<date>2020-01-26T05:26:53Z</date>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
