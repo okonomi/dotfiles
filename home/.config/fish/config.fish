@@ -15,6 +15,7 @@ set PATH $HOME/bin $PATH
 set PATH /usr/local/opt/gnu-sed/libexec/gnubin $PATH
 
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
 
 if type -q /home/linuxbrew/.linuxbrew
   eval (/home/linuxbrew/.linuxbrew/bin shellenv)
