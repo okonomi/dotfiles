@@ -1,0 +1,14 @@
+# main view の左端にコミットIDを表示する
+set main-view = id date author:email-user commit-title:graph=yes,refs=yes
+
+set vertical-split = no
+
+
+# utf-8 文字で画面描画する (~でトグル)
+set line-graphics = utf-8
+
+# マージ diff を表示する
+set diff-options = -m --first-parent
+
+# マウスを有効にする
+set mouse = true
