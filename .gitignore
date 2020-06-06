@@ -2,6 +2,7 @@ home/.config/fish/completions
 home/.config/fish/conf.d
 home/.config/fish/config.fish.backup
 home/.config/fish/fish_variables
+home/.config/fish/fishd.*
 home/.config/fish/functions
 home/.emacs.d/async-bytecomp.log
 home/.emacs.d/network-security.data
