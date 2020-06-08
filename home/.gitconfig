@@ -18,6 +18,7 @@
 	ad = add
 	tree = log --graph --pretty=oneline --abbrev-commit --decorate --all
 	br = branch
+	pl = pull
 	pick = cherry-pick
 	export = checkout-index -a -f
 	delete-merged-branches = !git branch --merged | grep -vE '\\*|master$|develop$' | xargs -I % git branch -d %
