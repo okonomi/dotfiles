@@ -1,75 +1,75 @@
-brew 'anyenv'
-brew 'awscli'
-brew 'deno'
-brew 'fish'
-brew 'fzf'
-brew 'ghq'
-brew 'gibo'
-brew 'git'
-brew 'gnu-sed'
-brew 'go'
-brew 'grep'
-brew 'htop'
-brew 'hub'
-brew 'jq'
-brew 'mas'
-brew 'node'
-brew 'pwgen'
-brew 'ruby'
-brew 'serverless'
-brew 'starship'
-brew 'terminal-notifier'
-brew 'tig'
-brew 'tmux'
-brew 'topgrade'
-brew 'watch'
-brew 'wget'
-brew 'yarn'
-brew 'bibendi/dip/dip'
-brew 'genkiroid/cert/cert'
-brew 'heroku/brew/heroku'
-brew 'reviewdog/tap/reviewdog'
+brew "anyenv"
+brew "awscli"
+brew "deno"
+brew "fish"
+brew "fzf"
+brew "ghq"
+brew "gibo"
+brew "git"
+brew "gnu-sed"
+brew "go"
+brew "grep"
+brew "htop"
+brew "hub"
+brew "jq"
+brew "mas"
+brew "node"
+brew "pwgen"
+brew "ruby"
+brew "serverless"
+brew "starship"
+brew "terminal-notifier"
+brew "tig"
+brew "tmux"
+brew "topgrade"
+brew "watch"
+brew "wget"
+brew "yarn"
+brew "bibendi/dip/dip"
+brew "genkiroid/cert/cert"
+brew "heroku/brew/heroku"
+brew "reviewdog/tap/reviewdog"
 
-cask '1password'
-cask 'alfred'
-cask 'appcleaner'
-cask 'atom'
-cask 'chromedriver'
-cask 'clipy'
-cask 'docker'
-cask 'emacs'
-cask 'firefox'
-cask 'font-noto-mono-for-powerline'
-cask 'font-noto-sans'
-cask 'font-noto-sans-cjk-jp'
-cask 'font-roboto-mono-for-powerline'
-cask 'freemind'
-cask 'github'
-cask 'gitkraken'
-cask 'gitup'
-cask 'google-chrome'
-cask 'google-chrome-canary'
-cask 'google-japanese-ime'
-cask 'grandperspective'
-cask 'imageoptim'
-cask 'iterm2'
-cask 'karabiner-elements'
-cask 'keepassxc'
-cask 'licecap'
-cask 'macwinzipper'
-cask 'microsoft-edge'
-cask 'scroll-reverser'
-cask 'sequel-pro-nightly'
-cask 'the-unarchiver'
-cask 'toggl'
-cask 'visual-studio-code'
-cask 'visual-studio-code-insiders'
-cask 'xmind'
+cask "1password"
+cask "alfred"
+cask "appcleaner"
+cask "atom"
+cask "chromedriver"
+cask "clipy"
+cask "docker"
+cask "emacs"
+cask "firefox"
+cask "font-noto-mono-for-powerline"
+cask "font-noto-sans"
+cask "font-noto-sans-cjk-jp"
+cask "font-roboto-mono-for-powerline"
+cask "freemind"
+cask "github"
+cask "gitkraken"
+cask "gitup"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "google-japanese-ime"
+cask "grandperspective"
+cask "imageoptim"
+cask "iterm2"
+cask "karabiner-elements"
+cask "keepassxc"
+cask "licecap"
+cask "macwinzipper"
+cask "microsoft-edge"
+cask "scroll-reverser"
+cask "sequel-pro-nightly"
+cask "the-unarchiver"
+cask "toggl"
+cask "visual-studio-code"
+cask "visual-studio-code-insiders"
+cask "xmind"
 
-mas 'Disk Diag', id: 672206759
-mas 'Keynote', id: 409183694
-mas 'Magnet', id: 441258766
-mas 'Numbers', id: 409203825
-mas 'Skitch', id: 425955336
-mas 'Tomato One', id: 907364780
-mas 'Twitter', id: 1482454543
+mas "Disk Diag", id: 672206759
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Skitch", id: 425955336
+mas "Tomato One", id: 907364780
+mas "Twitter", id: 1482454543
