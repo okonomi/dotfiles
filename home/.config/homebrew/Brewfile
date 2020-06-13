@@ -1,20 +1,18 @@
 brew 'anyenv'
 brew 'awscli'
 brew 'deno'
-brew 'dip'
-brew 'emacs'
 brew 'fish'
 brew 'fzf'
 brew 'ghq'
 brew 'gibo'
 brew 'git'
 brew 'go'
-brew 'heroku'
 brew 'htop'
 brew 'hub'
 brew 'jq'
 brew 'mas'
 brew 'node'
+brew 'pwgen'
 brew 'ruby'
 brew 'starship'
 brew 'terminal-notifier'
@@ -23,6 +21,8 @@ brew 'tmux'
 brew 'topgrade'
 brew 'wget'
 brew 'yarn'
+brew 'bibendi/dip/dip'
+brew 'heroku/brew/heroku'
 
 cask '1password'
 cask 'alfred'
@@ -56,3 +56,10 @@ cask 'toggl'
 cask 'visual-studio-code'
 cask 'visual-studio-code-insiders'
 cask 'xmind'
+
+mas 'Disk Diag', id: 672206759
+mas 'Keynote', id: 409183694
+mas 'Magnet', id: 441258766
+mas 'Numbers', id: 409203825
+mas 'Skitch', id: 425955336
+mas 'Twitter', id: 1482454543
