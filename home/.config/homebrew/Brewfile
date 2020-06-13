@@ -67,7 +67,6 @@ cask 'visual-studio-code-insiders'
 cask 'xmind'
 
 mas 'Disk Diag', id: 672206759
-mas 'Drive', id: 947393436
 mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
 mas 'Numbers', id: 409203825
