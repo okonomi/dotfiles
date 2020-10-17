@@ -21,3 +21,11 @@
     ;; initialize leaf-keywords.el
     (leaf-keywords-init)))
 ;; </leaf-install-code>
+
+(leaf leaf
+  :config
+  (leaf leaf-convert :ensure t)
+  (leaf leaf-tree
+    :ensure t
+    :custom ((imenu-list-size . 30)
+             (imenu-list-position . 'left))))
