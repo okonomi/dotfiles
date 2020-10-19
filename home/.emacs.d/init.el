@@ -22,6 +22,11 @@
     (leaf-keywords-init)))
 ;; </leaf-install-code>
 
+(leaf cus-edit
+  :doc "tools for customizing Emacs and Lisp packages"
+  :tag "builtin" "faces" "help"
+  :custom `((custom-file . ,(locate-user-emacs-file "custom.el"))))
+
 (leaf leaf
   :config
   (leaf leaf-convert :ensure t)
@@ -33,3 +38,8 @@
 (leaf macrostep
   :ensure t
   :bind (("C-c e" . macrostep-expand)))
+
+(leaf dracula-theme
+  :ensure t
+  :config
+  (load-theme 'dracula t))
