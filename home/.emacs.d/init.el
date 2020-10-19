@@ -43,3 +43,32 @@
   :ensure t
   :config
   (load-theme 'dracula t))
+
+(leaf persistent-scratch
+  :ensure t
+  :config
+  (persistent-scratch-setup-default))
+
+(leaf leaf-convert
+  :doc "basic"
+  :custom ((inhibit-startup-message . t)
+	   (scroll-step . 1)
+	   (kill-whole-line . t)
+	   (show-paren-mode . t)
+	   (recentf-max-menu-items . 20)
+	   (recentf-max-saved-items . 100))
+  :config
+  (global-hl-line-mode t)
+  (global-linum-mode t)
+  (column-number-mode t)
+  (recentf-mode t)
+  (define-key global-map "\C-h" 'delete-backward-char))
+
+(leaf leaf-convert
+  :doc "window style"
+  :when window-system
+  :config
+  (tool-bar-mode -1)
+  (menu-bar-mode -1)
+  (set-scroll-bar-mode nil)
+  (toggle-frame-maximized))
