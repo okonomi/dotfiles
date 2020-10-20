@@ -115,3 +115,10 @@
   (menu-bar-mode -1)
   (set-scroll-bar-mode nil)
   (toggle-frame-maximized))
+
+(leaf savehist
+  :doc "Save minibuffer history"
+  :tag "builtin"
+  :added "2020-10-20"
+  :config
+  (savehist-mode 1))
