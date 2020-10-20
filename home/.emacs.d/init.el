@@ -49,32 +49,6 @@
   :config
   (persistent-scratch-setup-default))
 
-(leaf leaf-convert
-  :doc "basic"
-  :custom ((inhibit-startup-message . t)
-	   (scroll-step . 1)
-	   (kill-whole-line . t)
-	   (show-paren-mode . t)
-	   (recentf-max-menu-items . 20)
-	   (recentf-max-saved-items . 100))
-  :bind
-  ("C-c ;" . comment-dwim)
-  ("\C-h" . delete-backward-char)
-  :config
-  (global-hl-line-mode t)
-  (global-display-line-numbers-mode t)
-  (column-number-mode t)
-  (recentf-mode t))
-
-(leaf leaf-convert
-  :doc "window style"
-  :when window-system
-  :config
-  (tool-bar-mode -1)
-  (menu-bar-mode -1)
-  (set-scroll-bar-mode nil)
-  (toggle-frame-maximized))
-
 (leaf multiple-cursors
   :doc "Multiple cursors for Emacs."
   :req "cl-lib-0.5"
@@ -112,3 +86,32 @@
   :ensure t
   :config
   (ivy-mode t))
+
+(leaf leaf-convert
+  :doc "basic"
+  :custom ((inhibit-startup-message . t)
+	   (scroll-step . 1)
+	   (kill-whole-line . t)
+	   (show-paren-mode . t)
+	   (recentf-max-menu-items . 20)
+	   (recentf-max-saved-items . 100))
+  :config
+  (global-hl-line-mode t)
+  (global-display-line-numbers-mode t)
+  (column-number-mode t)
+  (recentf-mode t))
+
+(leaf leaf-convert
+  :doc "global keybindings"
+  :bind
+  (("C-c ;" . comment-dwim)
+   ("\C-h" . delete-backward-char)))
+
+(leaf leaf-convert
+  :doc "window style"
+  :when window-system
+  :config
+  (tool-bar-mode -1)
+  (menu-bar-mode -1)
+  (set-scroll-bar-mode nil)
+  (toggle-frame-maximized))
