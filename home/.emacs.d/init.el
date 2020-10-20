@@ -101,3 +101,14 @@
   :emacs>= 25.1
   :ensure t
   :after git-commit with-editor)
+
+(leaf ivy
+  :doc "Incremental Vertical completYon"
+  :req "emacs-24.5"
+  :tag "matching" "emacs>=24.5"
+  :added "2020-10-20"
+  :url "https://github.com/abo-abo/swiper"
+  :emacs>= 24.5
+  :ensure t
+  :config
+  (ivy-mode t))
