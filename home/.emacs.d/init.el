@@ -120,5 +120,7 @@
   :doc "Save minibuffer history"
   :tag "builtin"
   :added "2020-10-20"
+  :custom
+  (history-length . 10000)
   :config
   (savehist-mode 1))
