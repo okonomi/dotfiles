@@ -59,7 +59,7 @@
 	   (recentf-max-saved-items . 100))
   :config
   (global-hl-line-mode t)
-  (global-linum-mode t)
+  (global-display-line-numbers-mode t)
   (column-number-mode t)
   (recentf-mode t)
   (define-key global-map "\C-h" 'delete-backward-char))
@@ -79,3 +79,14 @@
   :added "2020-10-20"
   :ensure t
   :bind ("C-S-l" . mc/edit-lines))
+
+(leaf git-gutter
+  :doc "Port of Sublime Text plugin GitGutter"
+  :req "emacs-24.3"
+  :tag "emacs>=24.3"
+  :added "2020-10-20"
+  :url "https://github.com/emacsorphanage/git-gutter"
+  :emacs>= 24.3
+  :ensure t
+  :config
+  (global-git-gutter-mode t))
