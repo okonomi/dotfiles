@@ -57,12 +57,14 @@
 	   (show-paren-mode . t)
 	   (recentf-max-menu-items . 20)
 	   (recentf-max-saved-items . 100))
+  :bind
+  ("C-c ;" . comment-dwim)
+  ("\C-h" . delete-backward-char)
   :config
   (global-hl-line-mode t)
   (global-display-line-numbers-mode t)
   (column-number-mode t)
-  (recentf-mode t)
-  (define-key global-map "\C-h" 'delete-backward-char))
+  (recentf-mode t))
 
 (leaf leaf-convert
   :doc "window style"
