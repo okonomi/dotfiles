@@ -72,3 +72,10 @@
   (menu-bar-mode -1)
   (set-scroll-bar-mode nil)
   (toggle-frame-maximized))
+
+(leaf multiple-cursors
+  :doc "Multiple cursors for Emacs."
+  :req "cl-lib-0.5"
+  :added "2020-10-20"
+  :ensure t
+  :bind ("C-S-l" . mc/edit-lines))
