@@ -87,6 +87,16 @@
   :config
   (ivy-mode t))
 
+(leaf counsel
+  :doc "Various completion functions using Ivy"
+  :req "emacs-24.5" "swiper-0.13.0"
+  :tag "tools" "matching" "convenience" "emacs>=24.5"
+  :added "2020-10-21"
+  :url "https://github.com/abo-abo/swiper"
+  :emacs>= 24.5
+  :ensure t
+  :after swiper)
+
 (leaf swiper
   :doc "Isearch with an overview. Oh, man!"
   :req "emacs-24.5" "ivy-0.13.0"
