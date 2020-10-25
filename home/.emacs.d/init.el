@@ -145,3 +145,12 @@
   (history-length . 10000)
   :config
   (savehist-mode 1))
+
+(leaf neotree
+  :doc "A tree plugin like NerdTree for Vim"
+  :req "cl-lib-0.5"
+  :added "2020-10-23"
+  :url "https://github.com/jaypei/emacs-neotree"
+  :ensure t
+  :bind
+  (("<f8>" . neotree-toggle)))
