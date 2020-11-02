@@ -159,3 +159,14 @@
   :config
   (add-to-list 'default-frame-alist '(font . "Noto Sans Mono CJK JP"))
   (set-face-attribute 'default t :font "Noto Sans Mono CJK JP"))
+
+(leaf iflipb
+  :doc "Interactively flip between recently visited buffers"
+  :added "2020-11-02"
+  :url "https://github.com/jrosdahl/iflipb"
+  :ensure t
+  :bind
+  (("M-s-<left>" . iflipb-previous-buffer)
+   ("M-s-<right>" . iflipb-next-buffer))
+  :custom
+  ((iflipb-wrap-around . t)))
