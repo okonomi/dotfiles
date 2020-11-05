@@ -170,3 +170,14 @@
    ("M-s-<right>" . iflipb-next-buffer))
   :custom
   ((iflipb-wrap-around . t)))
+
+(leaf super-save
+  :doc "Auto-save buffers, based on your activity."
+  :req "emacs-24.4"
+  :tag "convenience" "emacs>=24.4"
+  :added "2020-11-05"
+  :url "https://github.com/bbatsov/super-save"
+  :emacs>= 24.4
+  :ensure t
+  :config
+  (super-save-mode +1))
