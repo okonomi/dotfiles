@@ -181,3 +181,7 @@
   :ensure t
   :config
   (super-save-mode +1))
+
+(leaf leaf-convert
+  :setq ((delete-by-moving-to-trash . t)))
+
