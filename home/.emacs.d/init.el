@@ -185,3 +185,11 @@
 (leaf leaf-convert
   :setq ((delete-by-moving-to-trash . t)))
 
+(leaf open-junk-file
+  :doc "Open a junk (memo) file to try-and-error"
+  :tag "tools" "convenience"
+  :added "2020-11-22"
+  :url "http://www.emacswiki.org/cgi-bin/wiki/download/open-junk-file.el"
+  :ensure t
+  :bind (("C-x j" . open-junk-file))
+  :setq ((open-junk-file-format . "~/Documents/junk/%Y/%m/%Y-%m-%d-%H%M%S.org")))
