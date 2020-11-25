@@ -42,8 +42,8 @@ if type -q /home/linuxbrew/.linuxbrew
   eval (/home/linuxbrew/.linuxbrew/bin shellenv)
 end
 
-if type -q anyenv
-  status --is-interactive; and source (anyenv init -|psub)
+if type -q asdf
+  source /usr/local/opt/asdf/asdf.fish
 end
 
 # The next line updates PATH for the Google Cloud SDK.
