@@ -28,6 +28,14 @@
 # set -g theme_display_date no
 # set -g theme_display_cmd_duration no
 
+if test -d /home/linuxbrew/.linuxbrew
+  eval (/home/linuxbrew/.linuxbrew/bin shellenv)
+end
+
+if test -d /opt/homebrew
+  eval (/opt/homebrew/bin/brew shellenv)
+end
+
 starship init fish | source
 
 alias g='git'
@@ -37,14 +45,6 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
 
 set -x FZF_LEGACY_KEYBINDINGS 0
-
-if type -q /home/linuxbrew/.linuxbrew
-  eval (/home/linuxbrew/.linuxbrew/bin shellenv)
-end
-
-if type -q /opt/homebrew
-  eval (/opt/homebrew/bin/brew shellenv)
-end
 
 if type -q anyenv
   status --is-interactive; and source (anyenv init -|psub)
