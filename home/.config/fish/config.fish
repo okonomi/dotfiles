@@ -42,6 +42,10 @@ if type -q /home/linuxbrew/.linuxbrew
   eval (/home/linuxbrew/.linuxbrew/bin shellenv)
 end
 
+if type -q /opt/homebrew
+  eval (/opt/homebrew/bin/brew shellenv)
+end
+
 if type -q anyenv
   status --is-interactive; and source (anyenv init -|psub)
 end
