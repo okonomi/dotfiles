@@ -50,5 +50,9 @@ if type -q anyenv
   status --is-interactive; and source (anyenv init -|psub)
 end
 
+if test -d (brew --prefix asdf)
+  source (brew --prefix asdf)/asdf.fish
+end
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '~/google-cloud-sdk/path.fish.inc' ]; . '~/google-cloud-sdk/path.fish.inc'; end
