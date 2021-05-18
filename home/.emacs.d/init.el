@@ -115,7 +115,8 @@
 	   (kill-whole-line . t)
 	   (show-paren-mode . t)
 	   (recentf-max-menu-items . 20)
-	   (recentf-max-saved-items . 100))
+	   (recentf-max-saved-items . 100)
+	   (indent-tabs-mode . nil))
   :config
   (global-hl-line-mode t)
   (global-display-line-numbers-mode t)
@@ -169,7 +170,8 @@
   (("M-s-<left>" . iflipb-previous-buffer)
    ("M-s-<right>" . iflipb-next-buffer))
   :custom
-  ((iflipb-wrap-around . t)))
+  ((iflipb-wrap-around . t)
+   (iflipb-ignore-buffers . nil)))
 
 (leaf super-save
   :doc "Auto-save buffers, based on your activity."
@@ -193,3 +195,12 @@
   :ensure t
   :bind (("C-x j" . open-junk-file))
   :setq ((open-junk-file-format . "~/Documents/junk/%Y/%m/%Y-%m-%d-%H%M%S.org")))
+
+(leaf markdown-mode
+  :doc "Major mode for Markdown-formatted text"
+  :req "emacs-25.1"
+  :tag "itex" "github flavored markdown" "markdown" "emacs>=25.1"
+  :added "2021-04-15"
+  :url "https://jblevins.org/projects/markdown-mode/"
+  :emacs>= 25.1
+  :ensure t)
