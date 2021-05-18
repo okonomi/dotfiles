@@ -10,6 +10,7 @@
 	excludesfile = ~/.config/git/ignore
 	safecrlf = true
 	autocrlf = false
+	pager = delta
 [alias]
 	co = checkout
 	ci = commit
@@ -39,12 +40,8 @@
 	rmdir = true
 [ghq]
 	root = ~/src
-[pager]
-	log = diff-highlight | less
-	show = diff-highlight | less
-	diff = diff-highlight | less
 [interactive]
-	diffFilter = diff-highlight
+	diffFilter = delta --color-only
 [diff]
 	compactionHeuristic = true
 [filter "lfs"]
@@ -54,3 +51,5 @@
 	clean = git-lfs clean -- %f
 [merge]
 	conflictstyle = diff3
+[delta]
+	line-numbers = true
