@@ -36,7 +36,9 @@ if test -d /opt/homebrew
   eval (/opt/homebrew/bin/brew shellenv)
 end
 
-starship init fish | source
+if type -q starship
+  starship init fish | source
+end
 
 alias g='git'
 
