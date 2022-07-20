@@ -51,7 +51,7 @@ if type -q anyenv
 end
 
 if test -d (brew --prefix asdf)
-  source (brew --prefix asdf)/asdf.fish
+  source (brew --prefix asdf)/libexec/asdf.fish
 end
 
 # The next line updates PATH for the Google Cloud SDK.
