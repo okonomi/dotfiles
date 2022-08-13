@@ -56,5 +56,9 @@ if test -d (brew --prefix asdf)
   source (brew --prefix asdf)/libexec/asdf.fish
 end
 
+if test -d $HOME/.cargo/bin
+  set -g fish_user_paths $HOME/.cargo/bin $fish_user_paths
+end
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '~/google-cloud-sdk/path.fish.inc' ]; . '~/google-cloud-sdk/path.fish.inc'; end
