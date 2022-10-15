@@ -22,7 +22,7 @@
 	pl = pull
 	pick = cherry-pick
 	export = checkout-index -a -f
-	delete-merged-branches = !git branch --merged | grep -vE '\\*|master$|develop$' | xargs -I % git branch -d %
+	delete-merged-branches = !git branch --merged | grep -vE '\\*|main$|master$|develop$' | xargs -I % git branch -d %
 	fetch-full = fetch --all --prune --tags --verbose
 [mergetool]
 	keepBackup = true
