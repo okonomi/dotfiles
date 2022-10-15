@@ -13,6 +13,7 @@
 	pager = delta
 [alias]
 	co = checkout
+	sw = switch
 	ci = commit
 	st = status
 	di = diff
