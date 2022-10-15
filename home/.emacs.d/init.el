@@ -194,7 +194,7 @@
   :url "http://www.emacswiki.org/cgi-bin/wiki/download/open-junk-file.el"
   :ensure t
   :bind (("C-x j" . open-junk-file))
-  :setq ((open-junk-file-format . "~/Documents/junk/%Y/%m/%Y-%m-%d-%H%M%S.org")))
+  :setq ((open-junk-file-format . "~/Documents/junk/%Y/%m/%Y-%m-%d-%H%M%S.md")))
 
 (leaf markdown-mode
   :doc "Major mode for Markdown-formatted text"
