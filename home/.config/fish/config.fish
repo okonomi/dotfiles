@@ -60,5 +60,9 @@ if test -d $HOME/.cargo/bin
   set -g fish_user_paths $HOME/.cargo/bin $fish_user_paths
 end
 
+if test -d $HOME/.deno/bin
+  set -g fish_user_paths $HOME/.deno/bin $fish_user_paths
+end
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '~/google-cloud-sdk/path.fish.inc' ]; . '~/google-cloud-sdk/path.fish.inc'; end
