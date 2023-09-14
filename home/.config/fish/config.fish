@@ -52,10 +52,6 @@ if type -q anyenv
   status --is-interactive; and source (anyenv init -|psub)
 end
 
-if test -d (brew --prefix asdf)
-  source (brew --prefix asdf)/libexec/asdf.fish
-end
-
 if test -d $HOME/.cargo/bin
   set -g fish_user_paths $HOME/.cargo/bin $fish_user_paths
 end
