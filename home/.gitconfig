@@ -13,7 +13,7 @@
 	pager = delta
 [alias]
 	co = checkout
-        fco = !git brl | fzf | awk '{ print $2 }' | xargs git checkout
+	fco = !git brl | fzf | awk '{ print $2 }' | xargs git checkout
 	sw = switch
 	ci = commit
 	st = status
@@ -21,7 +21,7 @@
 	ad = add
 	tree = log --graph --pretty=oneline --abbrev-commit --decorate --all
 	br = branch
-        brl = for-each-ref --sort='authordate' --format='%(authordate:short) %(refname:short)' refs/heads
+	brl = for-each-ref --sort='-authordate' --format='%(authordate:short) %(refname:short)' refs/heads
 	pl = pull
 	pick = cherry-pick
 	export = checkout-index -a -f
