@@ -158,8 +158,8 @@
 
 (leaf leaf-convert
   :config
-  (add-to-list 'default-frame-alist '(font . "Noto Sans Mono CJK JP"))
-  (set-face-attribute 'default t :font "Noto Sans Mono CJK JP"))
+  (add-to-list 'default-frame-alist '(font . "FiraCode Nerd Font Mono"))
+  (set-face-attribute 'default t :font "FiraCode Nerd Font Mono"))
 
 (leaf iflipb
   :doc "Interactively flip between recently visited buffers"
