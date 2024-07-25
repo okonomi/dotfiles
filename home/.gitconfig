@@ -10,7 +10,6 @@
 	excludesfile = ~/.config/git/ignore
 	safecrlf = true
 	autocrlf = false
-	pager = delta
 [alias]
 	co = checkout
 	fco = !git brl | fzf | awk '{ print $2 }' | xargs git checkout
@@ -44,8 +43,6 @@
 	rmdir = true
 [ghq]
 	root = ~/src
-[interactive]
-	diffFilter = delta --color-only
 [diff]
 	compactionHeuristic = true
 [filter "lfs"]
@@ -55,8 +52,6 @@
 	clean = git-lfs clean -- %f
 [merge]
 	conflictstyle = diff3
-[delta]
-	line-numbers = true
 [init]
 	defaultBranch = main
 [credential "https://github.com"]
