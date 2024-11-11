@@ -3,3 +3,6 @@ disabled = true
 
 [time]
 disabled = false
+
+[cmd_duration]
+show_notifications = true
