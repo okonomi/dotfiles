@@ -19,6 +19,9 @@
 	di = diff
 	ad = add
 	rb = rebase
+	rbc = rebase --continue
+	rba = rebase --abort
+	rbs = rebase --skip
 	tree = log --graph --pretty=oneline --abbrev-commit --decorate --all
 	br = branch
 	brl = for-each-ref --sort='-authordate' --format='%(authordate:short) %(refname:short)' refs/heads
