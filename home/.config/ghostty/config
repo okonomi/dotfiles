@@ -54,19 +54,29 @@ window-padding-y = 5
 window-padding-balance = true
 
 background = "#000000"
-background-opacity = 0.60
-background-blur-radius = 10
+background-opacity = 0.92
+background-blur-radius = 20
 
-quick-terminal-position = "bottom"
+theme = Catppuccin Mocha
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+copy-on-select = clipboard
+macos-option-as-alt = true
+confirm-close-surface = false
+window-save-state = always
+
+quick-terminal-position = "left"
 quick-terminal-animation-duration = 0
-quick-terminal-screen = "main"
-quick-terminal-autohide = false
+quick-terminal-screen = "macos-menu-bar"
+quick-terminal-autohide = true
 
-font-feature = "-dlig"
 font-family = ""
-font-family = "SF Mono Square Regular"
-# 「の」が変なフォントになるので個別に指定
-font-codepoint-map = "U+306E=Noto Sans CJK JP"
+font-family = "UDEV Gothic 35NF"
 link-url = true
 
 keybind = global:ctrl+;=toggle_quick_terminal
