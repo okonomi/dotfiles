@@ -1,0 +1,48 @@
+onboarding = false
+
+[keys]
+# tmux の prefix (ctrl+t) に合わせる。ctrl+t → c で新規タブなど手癖そのまま
+prefix = "ctrl+t"
+
+# ペインフォーカス移動をemacsのカーソル移動キーに合わせる
+focus_pane_left  = "prefix+ctrl+b"
+focus_pane_down  = "prefix+ctrl+n"
+focus_pane_up    = "prefix+ctrl+p"
+focus_pane_right = "prefix+ctrl+f"
+
+cycle_pane_next = "prefix+o"  # emacs の C-x o (other-window)
+close_tab       = "prefix+k"  # emacs の C-x k (kill-buffer)
+
+# 移動キーがctrl側へ移って空いたキーの再利用
+last_pane                = "prefix+tab"
+open_notification_target = "prefix+shift+o"  # prefix+o を cycle_pane_next へ明け渡す
+
+# navigate モード (prefix+g) 内の移動キーは herdr 0.7.4 では設定しても効かないため
+# 既定の hjkl のまま使う
+
+[[keys.command]]
+key = "prefix+s"
+type = "popup"
+command = "fish"
+width = "80%"
+height = "80%"
+
+# 入力待ち (blocked) / 応答完了 (done) のエージェントを順に巡回フォーカスする
+[[keys.command]]
+key = "prefix+a"
+type = "shell"
+command = "/Users/kawakami.shinya/.config/herdr/bin/focus-waiting-agent"
+
+[ui]
+# 注意が必要なエージェントを先頭に並べる (spaces=空間順 / priority=注意度キュー)
+agent_panel_sort = "priority"
+
+# ペイン境界に検出エージェント名/状態を表示して気づきやすくする
+show_agent_labels_on_pane_borders = true
+
+[ui.toast]
+delivery = "system"
+
+[ui.sound]
+# 背景ワークスペースのエージェントが完了・要対応になったら音で知らせる
+enabled = true
