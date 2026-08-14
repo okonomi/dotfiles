@@ -50,3 +50,8 @@ delivery = "system"
 [ui.sound]
 # 背景ワークスペースのエージェントが完了・要対応になったら音で知らせる
 enabled = true
+
+[experimental]
+# prefix モード中だけ入力ソースをASCII配列へ切り替え、抜けたら元に戻す。
+# 日本語入力のまま ctrl+t を押しても後続キーがIMEに食われない
+switch_ascii_input_source_in_prefix = true
