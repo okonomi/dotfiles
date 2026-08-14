@@ -37,6 +37,10 @@ command = "/Users/kawakami.shinya/.config/herdr/bin/focus-waiting-agent"
 # 注意が必要なエージェントを先頭に並べる (spaces=空間順 / priority=注意度キュー)
 agent_panel_sort = "priority"
 
+# タブ作成時に名前を聞かない。okonomi.auto-tab-name プラグインが
+# 実行中コマンド名を自動で付けるため、手入力は不要かつ邪魔になる。
+prompt_new_tab_name = false
+
 # ペイン境界に検出エージェント名/状態を表示して気づきやすくする
 show_agent_labels_on_pane_borders = true
 
