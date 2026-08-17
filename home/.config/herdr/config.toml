@@ -27,11 +27,11 @@ command = "fish"
 width = "80%"
 height = "80%"
 
-# 入力待ち (blocked) / 応答完了 (done) のエージェントを順に巡回フォーカスする
+# 待たせているエージェント (blocked / done / idle) を順に巡回フォーカスする
 [[keys.command]]
 key = "prefix+a"
-type = "shell"
-command = "/Users/kawakami.shinya/.config/herdr/bin/focus-waiting-agent"
+type = "plugin_action"
+command = "okonomi.agent-queue.next"
 
 [ui]
 # 注意が必要なエージェントを先頭に並べる (spaces=空間順 / priority=注意度キュー)
