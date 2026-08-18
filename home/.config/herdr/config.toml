@@ -33,6 +33,25 @@ key = "prefix+a"
 type = "plugin_action"
 command = "okonomi.agent-queue.next"
 
+[[keys.command]]
+key = "prefix+shift+a"
+type = "shell"
+command = "herdr plugin pane open --plugin maedana.agents-preview --entrypoint dashboard"
+description = "agents preview"
+
+# 稼働中のエージェントを 1 タブへ集めてタイル表示する / 元の場所へ戻す。
+#
+# prefix+shift+a は agents-preview に譲った。あちらは読み取り専用で何も動かさない
+# ぶん「見る」に向く。こちらは実ペインを集めるので、複数のエージェントにその場で
+# 打ち込みたいときに使う。用途が違うので両方置いておく。
+#
+# prefix が ctrl+t なので ctrl+t t の連打で押せる。tile の t。
+# prefix+g は herdr 既定の goto (navigate モード) なので使えない。
+[[keys.command]]
+key = "prefix+t"
+type = "plugin_action"
+command = "okonomi.agent-grid.toggle"
+
 [ui]
 # 注意が必要なエージェントを先頭に並べる (spaces=空間順 / priority=注意度キュー)
 agent_panel_sort = "priority"
