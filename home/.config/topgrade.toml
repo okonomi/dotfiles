@@ -10,12 +10,15 @@
 
 # Run specific steps - same options as the command line flag
 only = [
-  "asdf",
   "brew_cask",
   "brew_formula",
+  "claude_code",
+  "claude_code_plugins",
   "emacs",
   "gcloud",
   "gem",
+  "github_cli_extensions",
+  "mise",
   "shell",
   "tmux"
 ]
